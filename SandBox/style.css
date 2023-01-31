@@ -10,4 +10,27 @@
     font-family: 'opensans-regular-webfont';
     src: url(font/opensans-regular-webfont.ttf);
 }
+.navbar{
+    background-color: #000000;
+    opacity: 0.86;
+}
+.topnav a{
+    color: white;
+    text-align: center;
+    float: inline-end;
+    padding: 5px;
+}
+.topnav h3{
+    color: white;
+    float: left;
+    text-align: justify;
+}
 
+.topnav a:hover{
+    background-color: rgb(238, 90, 22);
+   color: white;  
+}
+.topnav a.active{
+    background-color:rgb(238, 90, 22) ;
+    color: white;
+}
